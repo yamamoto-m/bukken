@@ -59,10 +59,10 @@
 
   //エスケープ文字の除去とタグの無効化を行ないます
   $comment = htmlspecialchars(stripcslashes($comment));
-  $setubi  = htmlspecialchars(stripcslashes($setubi));
+  $setubi  = htmlspecialchars(stripcslashes($sonota));
   //半角カタカナを全角カタカナに変換します
-  $comment = mb_convert_kana($comment, "KV", "EUC-JP");
-  $setubi  = mb_convert_kana($sonota, "KV", "EUC-JP");
+  $comment = mb_convert_kana($comment, "KV", "utf-8");
+  $setubi  = mb_convert_kana($sonota, "KV", "utf-8");
 
   //各入力データのチェックを行ないます
   $errmsg = "";
