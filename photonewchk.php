@@ -89,10 +89,10 @@
   if ($categoryid == 0) {
     $errmsg .= "カテゴリが選択されていません。<BR>";
   }
-  if (mb_strlen($sonota,"EUC-JP") >50 ) {
+  if (mb_strlen($sonota,"utf-8") >50 ) {
     $errmsg .= "コメントの文字数が多すぎます。<BR>";
   }
-  if (mb_strlen($comment, "EUC-JP") >250) {
+  if (mb_strlen($comment, "utf-8") >250) {
     $errmsg .= "コメントの文字数が多すぎます。<BR>";
   }
   //改行コードをBRタグに置換します
