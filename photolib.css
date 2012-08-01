@@ -1,0 +1,106 @@
+﻿A:link, A:visited {
+  color             : #0363ff;
+}
+
+A:active {
+  color             : #ff0000;
+}
+
+A:hover {
+  color             : #ff0000;
+}
+
+BODY TD {
+  font-size         : 11pt;
+}
+
+TABLE {
+  border-collapse   : collapse;
+}
+
+IMG {
+  border            : none;
+}
+
+UL {
+  line-height       : 1.6em;
+}
+
+.maintitle {
+  font-size         : 15pt;
+  font-weight       : bold;
+  background-image  : url(images/topback.gif);
+  border-top        : 2px solid #888888;
+  border-bottom     : 2px solid #888888;
+  padding           : 5px 5px 5px 15px;
+}
+
+.pagetitle {
+  font-size         : 13pt;
+  background        : #ffffd9;
+  border-bottom     : 1px solid #cccccc;
+  padding           : 3px 5px 3px 15px;
+}
+
+.tohomelink {
+  float             : right;
+  padding           : 3px 5px 3px 0;
+}
+
+.maincontents {
+  font-size         : 11pt;
+  padding           : 5px 18px 0 18px;
+}
+
+.maincontents IMG {
+  margin            : 6px;
+}
+
+.photolist TH {
+  font-size         : 11pt;
+  background        : #aaeeaa;
+  border            : 1px solid #666666;
+  padding           : 4px;
+}
+
+.photolist TD {
+  font-size         : 11pt;
+  border            : 1px dotted #0f0f0f;
+  padding           : 4px;
+  vertical-align    : top;
+}
+
+.pagenavi {
+  margin-top        : 10px;
+  margin-bottom     : 10px;
+  margin-left       : 300px;
+}
+
+.formtable {
+  margin-left       : 50px;
+}
+
+.formtable TH {
+  font-size         : 11pt;
+  background        : #ffffd9;
+  border            : 1px solid #666666;
+  padding           : 3px;
+}
+
+.formtable TD {
+  font-size         : 11pt;
+  border            : 1px solid #666666;
+  padding           : 3px;
+}
+
+.midfont {
+  font-size         : 8pt;
+  font-weight       : normal;
+}
+
+.smallfont {
+  font-size         : 7pt;
+  font-weight       : normal;
+}
+
+
