@@ -62,7 +62,7 @@
   $sonota  = htmlspecialchars(stripcslashes($sonota));
   //半角カタカナを全角カタカナに変換します
   $comment = mb_convert_kana($comment, "KV", "utf-8");
-  $setubi  = mb_convert_kana($sonota, "KV", "utf-8");
+  $sonota  = mb_convert_kana($sonota, "KV", "utf-8");
 
   //各入力データのチェックを行ないます
   $errmsg = "";
